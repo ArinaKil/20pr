@@ -122,6 +122,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Discipline.cs" />
+    <Compile Include="Models\Evaluation.cs" />
+    <Compile Include="Models\Group.cs" />
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\Work.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -152,7 +157,6 @@
     <Folder Include="Classes\Common\" />
     <Folder Include="Images\" />
     <Folder Include="Items\" />
-    <Folder Include="Models\" />
     <Folder Include="Pages\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
