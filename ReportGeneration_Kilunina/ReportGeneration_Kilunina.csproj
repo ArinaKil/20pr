@@ -121,6 +121,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\Common\Connection.cs" />
+    <Compile Include="Classes\Common\Report.cs" />
     <Compile Include="Classes\DisciplineContext.cs" />
     <Compile Include="Classes\EvaluationContext.cs" />
     <Compile Include="Classes\GroupContext.cs" />
