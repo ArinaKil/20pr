@@ -15,11 +15,11 @@
         <Image Width="80" Margin="10,10,10,0" Height="90" VerticalAlignment="Top" Source="/Images/ic_student.png"/>
 
         <TextBox x:Name="TBFio" Text="Иванов Иван" VerticalAlignment="Top" Height="25" IsEnabled="False" Grid.Column="1" Margin="10,10,10.4,0" VerticalContentAlignment="Center"/>
-        <TextBox Text="ИСВ-21-3" VerticalAlignment="Top" Height="25" IsEnabled="False" Grid.Column="2" Margin="10,6,10,0" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="TBGroup" Text="ИСВ-21-3" VerticalAlignment="Top" Height="25" IsEnabled="False" Grid.Column="2" Margin="10,6,10,0" VerticalContentAlignment="Center"/>
         <CheckBox x:Name="CBExpelled" Content="Отчислен" VerticalAlignment="Top" Grid.Column="1" Margin="10,40,0,0" HorizontalAlignment="Left" Width="100" IsEnabled="False"/>
 
         <Label Content="Выполненные работы:" VerticalAlignment="Top" Grid.Column="1" Margin="10,60,10,0" Grid.ColumnSpan="2"/>
-        <ProgressBar x:Name="donelab" Value="10" Height="25" Grid.Column="1" Margin="10,86,10,0" Grid.ColumnSpan="2" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="doneWorks" Value="10" Height="25" Grid.Column="1" Margin="10,86,10,0" Grid.ColumnSpan="2" VerticalAlignment="Top"/>
         <Label Content="Посещаемость:" VerticalAlignment="Top" Grid.Column="1" Margin="10,116,10,0" Grid.ColumnSpan="2"/>
         <ProgressBar x:Name="missedCount" Value="10" Height="25" Grid.Column="1" Margin="10,142,10,0" Grid.ColumnSpan="2" VerticalAlignment="Top"/>
     </Grid>

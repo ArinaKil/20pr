@@ -27,7 +27,7 @@ namespace ReportGeneration_Kilunina.Pages
         {
             InitializeComponent();
             CreateGroupUI();
-            CreateStudents();
+            CreateStudents(AllStudents);
         }
 
         public void CreateGroupUI() 
@@ -59,7 +59,7 @@ namespace ReportGeneration_Kilunina.Pages
             if (CBGroups.SelectedIndex != CBGroups.Items.Count - 1)
             {
                 int IdGroup = AllGroups.Find(x => x.Name == CBGroups.SelectedItem).Id;
-                SearchStudent = AllStudents.FindAll(x => x.IdGroup == IdGroup)
+                SearchStudent = AllStudents.FindAll(x => x.IdGroup == IdGroup);
             }
             CreateStudents(SearchStudent.FindAll(x => $"{x.Lastname} {x.Firstname}".Contains(TBFIO.Text)));
         }
